@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="flowchart-tree.css">
+        
+        <script src="d3.min.js" charset="utf-8"></script>
+        <script src="script.js"></script>
+        
+    </head>
+    <body class="container-sm" id="intro">
+    
+   <table class="table table-sm table-borderless">
+        <thead>
+            <tr>
+                <td>Pathways Home</td>
+                <td>Emergency</td>
+                <td>ICU</td>
+                <td>Inpatient</td>
+                <td>Outpatient</td>
+            </tr>
+        </thead>
+    </table>
+
+    <row>
+    <h3 style="color:#5bc0de">Diagnosis & Therapy Initiation Pathway for Patients with Suspected Acute Decompensated Heart Failure (HUP)</h3>
+    </row>
+    
+    <section>
+    
+    <!--<ul>-->
+        <!--<span> Home<span>-->
+           <!--Sidebar for Evidence-->
+           <div class="d-none d-lg-block col-lg-2 bd-toc">
+              <div class="sidenav"  style="color: #546E7A">
+                <div class="card-body"><h6 class="card-title">Evidence</h6>
+                  <p style="text-align:left">
+                  <a href=""></a> <ion-icon name="open-outline"></ion-icon>
+                  </p>          
+                </div>
+              <div class="card-body"><h6 class="card-title"></h6>
+                  <p style="text-align:left; font-size:9px">
+                  <b>Posted:</b> Nov 2018 
+                  <!--<br><b>Revised:</b> -->
+                  <br><b>Team:</b> L. Marandola MSN CRNP; K. Gelinne, PA-C; M. Waqar, PA-C; E. King, MD; D. Spatz, MD; N. Mull, MD; J. Wald MD; Y. Quaioit, DNP CRNP; M. O'Malley, MSN RN ACNS-BC; J. Kim, MD; C. Domenico, PharmD; E. Flores, PhD RN;
+                </div> 
+          </div></div>
+        
+                              
+                              
+          <ul class=tree>
+            
+              <!--<div class="card" style="width: 8rem; margin-top-4rem; padding:0">-->
+              <!--<div class="card-body"><h6 class="card-subtitle">Goals and Metrics</h6>-->
+              <!--</div></div>-->
+              
+              <!--<div class="card" style="width: 8rem; margin-top:0rem; padding:0">-->
+              <!--<div class="card-body"><h6 class="card-subtitle">Patient Education</h6>-->
+              <!--</div></div>-->
+            
+              <li><span>Suspected Acute Decompensated Heart Failure (HUP)</u></span> 
+                <ul>
+                <li><span class="card" style="width:12rem"><div class="card-body" style="text-align: left">
+                            <h5 class="card-title">Review</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">History & Physical</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Order <b>Diagnostic Testing</b></h6>
+                            
+                          </div></span>
+
+                    
+                  <ul>
+                    <li><span class="card">
+                          <div class="card-body" style="text-align:left">
+                            <h5 class="card-title">Diagnostic Criteria (Framingham Criteria)</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Requires: <u>></u>2 Major criteria, OR</h6>
+                             <h6 class="card-subtitle mb-2 text-muted">1 Major + 2 Minor criteria</h6>
+                             <p style="margin-bottom:0px">Refer to <b>Framingham Criteria</b></p>
+                           
+                          </div></span>
+                         
+                   <ul>     
+                    <li><span class="card">
+                          <div class="card-body" style="text-align:left">
+                            <h5 class="card-title">Assessment <br>(NYHA + ACC/AHA Criteria)</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">1. HFrEF vs HFpEF <br>2. Systolic vs Diastolic<br>3. Reason for acute decompensation<br>4. <b>NYHA</b> functional class AND <b>ACC/AHA</b> heart failure stage</h6>
+                            </div></span>
+                   <ul> 
+                    <li><span class="card">
+                          <div class="card-body" style="text-align:left">
+                            <h5 class="card-title">Treatment</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Initiate BOTH pharmacological and non-pharm therapy</h6>
+                            <!--<p>Diuretic, Beta blocker, ACEi/ARB, Vasodilators, +/- IV iron<br>Nutrition, PT, Telemetry, Education, Sleep med, D/c planning</p>-->
+                            
+                            </div></span>
+                   
+                   <ul>
+                     <li>
+                       <span class="card"><div class="card-body"><h5 class="card-title">Pharmacologic therapy</h5>
+                       <p>Diuretic, Beta blocker, ACEi/ARB, Vasodilators, +/- IV iron</p></div></span>
+                     <ul></ul></li>
+                     <li>
+                       <span class="card"><div class="card-body"><h5 class="card-title">Non-Pharmacologic therapy</h5>
+                       <p>Nutrition, PT, Telemetry, Education, Sleep med, D/c planning</p></div></span>
+                     </li>
+                   </ul>
+                   
+                   
+                   
+                   
+                   
+                   <!--<div class="container" style="margin-left:-5rem">-->
+                    <div class="card" style="width:30rem; margin:0">
+                            <div class="card-body"><h5 class="card-title" style="text-align: left">Pharmacologic Management <a href="" style="font-size:10px">(Dosing tables: Initial Daily/Max)</a></h5>
+                            <table class="table-sm table-bordered"  style="text-align: left">
+                              <thead><tr><th scope="col">Agent</th>
+                                        <th scope="col">If active medication</th>
+                                        <th scope="col">If not currently on this medication</th>
+                                        </tr>
+                              </thead>
+                              <tbody>
+                                <tr><td><b>Diuretic</b><br> Furosemide (Lasix)</td>
+                                <td>Start IV, 1-1.5 equiv of PO dose</td>
+                                <td>Start 40mg IV; q12 hrs</td></tr>
+                                <tr><td><b>Beta blocker</b><br>Metoprolol, carvedilol, OR bisoprolol</td>
+                                <td>Continue existing BB dose <u>unless</u> one of the following:
+                                  <br>- HR < 50
+                                  <br>- 2nd/3rd AV block
+                                  <br>- Shock</td>
+                                <td>Hold BB until clinically and hemodynamically stable</td></tr>
+                                <tr><td><b>ACEi/ARB</b><br>(ACEi) Lisinopril, enalapril<br>(ARB) Valsartan, losartan</td>
+                                <td>Continue unless contraindicated</td>
+                                <td>Start ACEi/ARB at low dose unless creatinine >2.5 and K >5.0, and titrate up as tolerated</td></tr>
+                                <tr><td><b>Vasodilators</b><br>Hydralazine / Isosorbide mononitrate (Imdur)</td>
+                                <td>Continue unless contraindicated*<br><br><i>*Hydralazine contraindicated in myocardial infarction as increases myocardial oxygen demand</i></td>
+                                <td>Start if ACEi/ARB contraindicated or after BB/ACEi/ARB are uptitrated, and no contraindications*<br><br><i>*Evidence supports added benefit in African-American patients</i></td></tr>
+                                <tr><td>+/- <b>IV Iron supplementation</b></td>
+                                <td colspan="2">Consider if patient is iron deficient AND if no evidence of infiltrative cardiac disease, myocarditis, or infection<br>Dose recommendation: 100mg x 3d</td></tr>
+                             </tbody>
+                            </table>
+                            <p style="font-size:9px; text-align:left"><a href="https://www.acc.org/tools-and-practice-support/clinical-toolkits/heart-failure-practice-solutions/hf-medication-table">Go to: Heart Failure Medication Table - ACC</a></p>
+                          </div></div>
+                          <!--</div>-->
+                   </ul></ul></ul></ul></ul>
+                   
+                   
+                   
+                   </section>
+                    
+                    <div class="container" style="margin-top:-70rem; margin-left:34rem">
+                     <div class="card supplemental" style="width:30rem; border:none;">
+                            <div class="card-body"><h5 class="card-title" style="text-align: left">Order Diagnostic Testing</h5>
+                            <table class="table-sm table-bordered" style="text-align: left">
+                              <thead><tr><th scope="col">Lab Testing</th>
+                                        <th scope="col">Imaging</th>
+                                        </tr>
+                              </thead>
+                              <tbody><tr><td><li>Troponins</li>
+                                <li>CBC</li>
+                                <li>BNP</li>
+                                <li>BUN, Cr, UA</li>
+                                <li>Serum electrolytes</li>
+                                <li>Glucose</li>
+                                <li>TSH</li>
+                                <li>LFTs</li>
+                                <li>Iron studies</li></td>
+                              <td>
+                                <li>EKG and CXR for all patients</li>
+                                <li>Tranthoracic echo deferred until euvolemic unless:</li>
+                                <ul><li>Patient has new heart failure</li>
+                                  <li>Patient with existing heart failure if:</li>
+                                  <ul>
+                                    <li>Significant change in clinical status and >6mo since last echo</li>
+                                    <li>Recent cardiac event/procedure</li>
+                                    <li>Received treatment that may recover cardiac function</li>
+                                    <li>may require ICD</li>
+                                  </ul></ul></td>
+                              </tr></tbody>
+                            </table>
+                            <p style="font-size:9px; text-align:left"><br><i>*If patient has existing ICD, determine what kind of ICD is in place and consult Electrophysiology or call Device Representative for device interrogation. EP consult also appropriate for new or uncontrolled atrial fibrillation.</i></p>
+                          </div></div>
+                    
+                    <div class="card supplemental" style="width:30rem; border:none">
+                            <div class="card-body"><h5 class="card-title" style="text-align: left">Framingham Criteria</h5>
+                            <table class="table-sm table-bordered"  style="text-align: left">
+                              <thead><tr><th scope="col">Major Criteria</th>
+                                        <th scope="col">Minor Criteria</th>
+                                        </tr>
+                              </thead>
+                              <tbody><tr><td><li>Acute pulmonary edema</li>
+                                <li>Cardiomegaly</li>
+                                <li>Hepatojugular reflux</li>
+                                <li>Neck vein distention</li>
+                                <li>Paroxysmal nocturnal dyspnea/orthopnea</li>
+                                <li>Pulmonary rales</li>
+                                <li>S3 gallop</li>
+                                <li>Weight loss >4.5 kg in 5 ays in response to treatment</li>
+                                </td>
+                              <td>
+                                <li>Ankle edema</li>
+                                <li>Dyspnea on exertion</li>
+                                <li>Hepatomegaly</li>
+                                <li>Nocturnal cough</li>
+                                <li>Pleural effusion</li>
+                                <li>Tachycardia (HR >120)</li>
+                              </td>
+                              </tr></tbody>
+                            </table>
+                            <p style="font-size:9px; text-align:left"><a href="https://www.mdcalc.com/framingham-heart-failure-diagnostic-criteria">Go to: Framingham - MDCalc</a></p>
+                          </div></div>
+                    
+                    
+                    
+                    <div class="card supplemental" style="width:30rem; border:none">
+                            <div class="card-body"><h5 class="card-title" style="text-align: left">NYHA Classification of Heart Failure</h5>
+                            <table class="table-sm table-bordered"  style="text-align: left">
+                              <thead><tr><th scope="col">Class</th>
+                                        <th scope="col">Patient Symptoms</th>
+                                        </tr>
+                              </thead>
+                              <tbody><tr><td>I</td><td>No limitation of physical activity. Ordinary physical activity does not cause undue fatigue, palpitation, dyspnea (shortness of breath).</td></tr>
+                                    <tr><td>II</td><td>Slight limitation of physical activity. Comfortable at rest. Ordinary physical activity results in fatigue, palpitation, dyspnea (shortness of breath).</td></tr>
+                                   <tr><td>III</td><td>Marked limitation of physical activity. Comfortable at rest. Less than ordinary activity causes fatigue, palpitation, or dyspnea.</td></tr>
+                                  <tr><td>IV</td><td>	Unable to carry on any physical activity without discomfort. Symptoms of heart failure at rest. If any physical activity is undertaken, discomfort increases.</td></tr>
+                              </tbody>
+                              <thead><tr><th scope="col">Class</th>
+                                        <th scope="col">Objective Assessment</th>
+                                        </tr>
+                              </thead>
+                              <tbody><tr><td>A</td><td>No objective evidence of cardiovascular disease. No symptoms and no limitation in ordinary physical activity.</td></tr>
+                                    <tr><td>B</td><td>Objective evidence of minimal cardiovascular disease. Mild symptoms and slight limitation during ordinary activity. Comfortable at rest.</td></tr>
+                                   <tr><td>C</td><td>Objective evidence of moderately severe cardiovascular disease. Marked limitation in activity due to symptoms, even during less-than-ordinary activity. Comfortable only at rest.</td></tr>
+                                  <tr><td>D</td><td>Objective evidence of severe cardiovascular disease. Severe limitations. Experiences symptoms even while at rest.</td></tr>
+                              </tbody>
+                            </table>
+                            <p style="font-size:9px; text-align:left"><a href="https://www.heart.org/en/health-topics/heart-failure/what-is-heart-failure/classes-of-heart-failure">Go to: NYHA - AHA</a></p>
+                          </div></div>
+                    
+                    </div>
+                    
+                      <!-- new row after merged children -->
+                        
+                          
+                          <!--<li></ul></ul>-->
+                            <!--Shared Child-->
+                          <!-- <li style="">  -->
+                          <!--<div class="card" style="width: 8rem; margin-left:0rem; margin-top:10rem; padding:0"> <div class="card-body">-->
+                          <!--    <h5 class="card-title">>1 Red Flag Present</h5>-->
+                          <!--    <h6 class="card-subtitle mb-2 text-muted" style="font-size: 12px">More evaluation may be required</h6>-->
+                          <!--    </div>-->
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                           <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#handp" id="handpbutton">
+                              Launch H&P
+                            </button>
+                            
+                            <a data-toggle="modal" href="#handp">Launch H&P Modal</a>
+                            
+                            <!-- Modal -->
+                            <div class="modal fade" id="handp" tabindex="-1" aria-labelledby="historyandphysical" aria-hidden="true">
+                              <div class="modal-dialog-scrollable">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">History & ROS</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span>
+                                    </button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <div class="container-fluid">
+                                    <div class="row">
+                                      
+                                      <!--Table-->
+                                          <div class="card" style="width:40rem; border:none">
+                                        <div class="card-body"><h5 class="card-title" style="text-align: left">Recommendations for conducting a review of systems and past medical history</h5>
+                                        <table class="table-sm table-bordered">
+                                          <!--<thead><tr><th scope="col">Symptoms</th>-->
+                                          <!--          <th scope="col">Tier</th>-->
+                                          <!--          <th scope="col">Treatment</th>-->
+                                          <!--          <th scope="col">Assess for improvement before escalation</th>-->
+                                          <!--          </tr>-->
+                                          <!--</thead>-->
+                                          <tbody><tr><th scope="row">Symptoms</th>
+                                            <td>1. Dyspnea (at rest or with exertion) <br> 2. Paroxysmal nocturnal dyspnea<br>3. orthopnea<br>4. cough (recumbent, ith exertion, nocturnal)<br>5. abdominal discomfort/bloating<br>6. lower extremity edema, dependent edema<br>7.leg heaviness or skin tightness<br>8. chest tightness or discomfort <br>9. fatigue<br>10. syncope/pre-syncope<br>11.decreased urine output</td></tr>
+                                            <tr><th scope="row">Recent illness</th>
+                                            <td>Sick contacts, procedures, hospitalizations<td></tr>
+                                            <tr><th scope="row">Baseline activity statuss</th>
+                                            <td>Recent changes? (i.e. winded going up stairs, further distances)<td></tr>
+                                            <tr><th scope="row">Baseline oxygen requirement</th>
+                                            <td>Currently on O2? Uses BiPAP or CPAP?<td>
+                                            <tr><th scope="row">Weight</th>
+                                            <td>Dry weight and any recent weight changes<td></tr>
+                                            <tr><th scope="row">Diet</th>
+                                            <td>Dietary habits including salt and fluid intake<td></tr>
+                                            <tr><th scope="row">Etiology of heart failure</th>
+                                            <td>Per outpatient records if attainable<td></tr>
+                                            <tr><th scope="row">Recent studies</th>
+                                            <td>Echo, cardiac catheterization, or stress test and where study was done<td></tr>
+                                            <tr><th scope="row">Comorbidities and Family History</th>
+                                            <td>HTN, MI, HLD, CAD, valvular disease, thyroid disease, DM, OSA, renal failure, anemia<td></tr>
+                                            <tr><th scope="row">Surgical / devices</th>
+                                            <td>Cardiac, valve repair/replacement, stents, transplant<br> Presence of ICD and why it was placed<td></tr>
+                                            <tr><th scope="row">Social</th>
+                                            <td>Tobacco use, ETOH use, drug use (specifically cocaine); psychosocial barriers including access to medicine, home scale, transportation, insurance, etc<td></tr>
+                                            <tr><th scope="row">Medications</th>
+                                            <td>Specifically: diuretics, BB, ACEi/ARB, and other heart failure meds<br>Mediation compliance, and any recent medication changes<td></tr>
+                                            <tr><th scope="row">Cardiologist?</th>
+                                            <td>Ourpatient cardiologist and date of late appointment<td></tr>
+                                            </tbody>
+                                        </table>
+                                        
+                                      </div></div>
+                                      
+                                      
+                                      
+                                    </div></div>  
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                    
+   
+  <!--</section>-->
+    </body>
+</html>             
+                      

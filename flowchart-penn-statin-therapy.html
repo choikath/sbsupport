@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="flowchart-tree.css">
+        
+        <!--<script src="d3.min.js" charset="utf-8"></script>-->
+        <!--<script src="script.js"></script>-->
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+        
+    </head>
+    <body class="container-sm" id="intro">
+    
+    <table class="table table-sm table-borderless">
+        <thead>
+            <tr>
+                <td>Pathways Home</td>
+                <td>Emergency</td>
+                <td>ICU</td>
+                <td>Inpatient</td>
+                <td>Outpatient</td>
+            </tr>
+        </thead>
+    </table>
+
+    <row>
+    <h3 style="color:#5bc0de">Statin Therapy for Atherosclerotic Cardiovascular Disease (ACC 2018)</h3>
+    </row>
+    
+    <section>
+    
+
+      <!--Sidebar for Evidence-->
+       <div class="d-none d-lg-block col-lg-2 bd-toc">
+          <div class="sidenav" style="color: #546E7A">
+            <div class="card-body"><h6 class="card-title">Evidence</h6>
+              <p style="text-align:left">
+              <a href="https://www.acc.org/~/media/Non-Clinical/Files-PDFs-Excel-MS-Word-etc/Guidelines/2018/Guidelines-Made-Simple-Tool-2018-Cholesterol.pdf">ACC 2018 Guidelines</a> <ion-icon name="open-outline"></ion-icon>
+              </p>  
+            </div>
+            <div class="card-body"><h6 class="card-title"></h6>
+                <p style="text-align:left; font-size:9px">
+                <b>Posted:</b> 
+                <br><b>Revised:</b> 
+                <br><b>Team:</b> 
+              </div> 
+        </div></div>
+        
+
+
+                              
+      <!--Start Flowchart-->                     
+      <ul class=tree>
+        <row style="height:20rem"></row>
+              
+              <!--<div class="card" style="width: 8rem; margin-top:0rem; padding:0">-->
+              <!--<div class="card-body"><h6 class="card-subtitle">Patient Education</h6>-->
+              <!--</div></div>-->
+            
+              <li><span>Candidate for Statin Therapy (Patients >21yo)</span> 
+                <ul>
+                <li><span class="card"><div class="card-body" style="text-align: left">
+                            <h5 class="card-title">Review</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">H&P</h6>
+                            <p style="margin-bottom:0px">Assess for clinical ASCVD; <br>Reinforce heart healthy lifestyle habits</p>
+                          </div></span>
+                    
+                    <ul><li><span class="card" style="width:10rem">
+                          <div class="card-body">
+                            <h5 class="card-title">LDL-C <u>></u> 190 mg/dL</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">Start high-intensity statin therapy.</h6>
+                            </div></span>
+    
+                        <li><span class="card" style="width:30rem"><div class="card-body">
+                        <h5 class="card-title" style="text-align: left; width:30rem">Treatment Guidelines</h5>
+                            <table class="table-sm table-bordered"  style="text-align: left">
+                              <thead><tr>
+                                      <th scope="col" width="40px">Age</th>
+                                      <th scope="col" width="40px">Patient characteristics</th>
+                                      <th scope="col" width="20px">ASCVD risk or LDL levels</th>
+                                      <th scope="col" width="20px">Recommendation</th>
+                                      </tr>
+                              </thead>
+                              <tbody>
+                                <tr><td colspan="3">ASCVD</td><td>Treat with high intensity statins or maximum tolerated dose with goal of reducing LDL-C.</td></tr>
+                                <tr><td colspan="3">Very high risk ASCVD</td><td>Consider adding non-statins in addition to statins therapy</td>
+                                      
+                                <tr><td rowspan="4">Age 40-57</td>
+                                <td>Diabetic<br></td><td><b>If LDL-C <u>></u> 70-189: </b></td><td>Start moderate-intensity statin therapy.<br><br>For primary ASCVD prevention, have risk discussion with patient before starting statin therapy.</td></tr>
+                                <tr><td rowspan="3">Non-Diabetic</td>
+                                <td><b>If ASCVD risk <u>></u> 7.5%:</b></td><td>Start moderate-intensity statin if discussion of treatment options favors statin therapy</td></tr>
+                                <tr><td><b>If ASCVD risk 7.5-19.9% (intermediate):</b></td><td>Favor starting statin therapy if risk-enhancing factors present*</td></tr>
+                                <tr><td><b>If LDL <u>></u> 70-189:</b></td><td> Consider measuring CAC if uncertain whether to begin statin therapy.</td></tr>
+                              </table>
+                              
+                            </div></span>
+                    
+                    <ul><li><span class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Assess and Adjust</h5>
+                            <p style="margin-bottom:0px; text-align:left; font-size:9px">Monitor adherence/response in LDL levels from medications and lifestyle modifications.<br> Repeat lipids 4-12w after initiation, q3-12mo PRN.</h6>
+                            </div></span>
+                    
+      </ul></ul>
+      </section>
+    </body>
+</html>             
+                      

@@ -1,0 +1,175 @@
+body {
+  /*font-family: Calibri, Segoe, "Segoe UI", "Gill Sans", "Gill Sans MT", sans-serif;*/
+}
+
+
+.card, .card-shared, .card-parent {
+    padding: 0;
+    margin: 1em;
+    width: 16em;
+    text-align: center;
+    background-color: #f2f5f8; /*#ECEFF1;*/
+}
+
+.supplemental {
+    background-color: #fff;
+}
+
+.card-body {
+    padding:.75rem;
+}
+
+.card-title {
+    font-size: 14px;
+}
+.card-subtitle, .card-link, p{
+    font-size: 12px;
+}
+
+/* It's supposed to look like a tree diagram */
+.tree, .tree ul, .tree li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.child {
+    margin:0;
+    margin-left: -6rem;
+}
+
+.category {
+    background-color: #dff0ff;
+    width:7em;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.jumbotron {
+    background-color: #f2f5f8;
+    border-radius: 1.3rem;
+}
+
+table-sm, table, tbody, th, tr, td {
+    font-size: 9px;
+    vertical-align: top;
+}
+
+.table-bordered > thead > tr > th {
+    border: 1px solid #B0BEC5;
+}
+.table-bordered > tbody > tr > td {
+    border: 1px solid #B0BEC5;
+}
+.table-bordered > tbody > tr > th {
+    border: 1px solid #B0BEC5;
+}
+
+.sidenav {
+    width:200px;
+    position:fixed;
+    z-index:1;
+    top:6rem;
+    right:0;
+    border-left: 1px solid #eee;
+    /*background-color: #E1F5FE;*/
+    overflow-x: hidden;
+}
+
+.tree {
+    margin: 0 0 1em;
+    text-align: center;
+}
+.tree, .tree ul {
+    display: table;
+}
+.tree ul {
+  width: 100%;
+}
+    .tree li {
+        display: table-cell;
+        padding: .5em 0;
+        vertical-align: top;
+    }
+        /* _________ */
+        .tree li:before {
+            outline: solid .05em #c3c3c3;
+            content: "";
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+        .tree li:first-child:before {left: 50%;}
+        .tree li:last-child:before {right: 50%;}
+
+        .tree code, .tree span {
+            border: 1px solid rgba(0,0,0,.125);
+            border-radius: .2em;
+            display: inline-block;
+            margin: 0 .2em .5em;
+            padding: .2em .5em;
+            position: relative;
+        }
+        /* If the tree represents DOM structure */
+        .tree code {
+            font-family: monaco, Consolas, 'Lucida Console', monospace;
+        }
+
+            /* | */
+            .tree ul:before,
+            .tree code:before,
+            .tree span:before {
+                outline: solid .05em #c3c3c3;
+                content: "";
+                height: .5em;
+                left: 50%;
+                position: absolute;
+            }
+            .tree ul:before {
+                top: -.5em;
+            }
+            .tree code:before,
+            .tree span:before {
+                top: -.55em;
+            }
+
+
+
+/* Parent of shared node has downward links */
+/*.card-shared:before {*/
+/*                outline: solid .05em #c3c3c3;*/
+/*                content: "";*/
+/*                height: .5em;*/
+/*                left: 75%;*/
+/*                position: absolute;*/
+/*            }*/
+
+
+/* The root node doesn't connect upwards */
+.tree > li {margin-top: 0;}
+    .tree > li:before,
+    .tree > li:after,
+    .tree > li > code:before,
+    .tree > li > span:before {
+      outline: none;
+    }
+
+
+
+/*@media (max-width: 575.98px) {
+
+	.card-title {
+	    font-size: 18px;
+	}
+	.card-subtitle, .card-link, p{
+	    font-size: 16px;
+	}
+	table-sm, table, tbody, th, tr, td {
+	    font-size: 14px;
+	    vertical-align: top;
+	}
+
+}*/

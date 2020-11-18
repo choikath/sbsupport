@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="flowchart-tree.css">
+        
+        <script src="d3.min.js" charset="utf-8"></script>
+        
+        
+    </head>
+    <body class="container-sm" id="intro">
+    
+   <table class="table table-sm table-borderless">
+        <thead>
+            <tr>
+                <td>Pathways Home</td>
+                <td>Emergency</td>
+                <td>ICU</td>
+                <td>Inpatient</td>
+                <td>Outpatient</td>
+            </tr>
+        </thead>
+    </table>
+
+    <row>
+    <h3 style="color:#5bc0de">Appropriate Acid Suppression for Patients with Hematologic Malignancy</h3>
+    </row>
+    
+    <section>
+    
+    <!--<ul>-->
+        <!--<span> Home<span>-->
+             <!--Sidebar for Evidence-->
+           <div class="d-none d-lg-block col-lg-2 bd-toc">
+              <div class="sidenav"  style="color: #546E7A">
+                <div class="card-body"><h6 class="card-title">Evidence</h6>
+                  <p style="text-align:left">
+                  <a href=""></a> <ion-icon name="open-outline"></ion-icon>
+                  </p>          
+                </div>
+              <div class="card-body"><h6 class="card-title"></h6>
+                <p style="text-align:left; font-size:9px">
+                <b>Posted:</b> Jan 2018
+                <!--<br><b>Revised:</b>-->
+                <br><b>Team:</b> M. Zieger, MD; J. Han, MD; D. Landsburg MD; C. Freyer, MD; C. Newberry, MD; T. Gorman, MD;
+              </div> 
+        </div></div>
+        
+                              
+                              
+          <ul class=tree>
+            
+              <!--<div class="card" style="width: 8rem; margin-top-4rem; padding:0">-->
+              <!--<div class="card-body"><h6 class="card-subtitle">Goals and Metrics</h6>-->
+              <!--</div></div>-->
+              
+              <!--<div class="card" style="width: 8rem; margin-top:0rem; padding:0">-->
+              <!--<div class="card-body"><h6 class="card-subtitle">Patient Education</h6>-->
+              <!--</div></div>-->
+            
+              <li><span>HUP Inpatient Liquid Onc Service <u>Only</u></span> 
+                <ul>
+                <li><span class="card" style="width:10rem"><div class="card-body" style="text-align: left">
+                            <h5 class="card-title">Review</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">History & Physical</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">Medications</h6>
+                          </div></span>
+
+                    
+                  <ul>
+                    <li><span class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Lower risk of bleed</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">< 0.3mg/kg prednisone/day or equiv,</h6>
+                             <h6 class="card-subtitle mb-2 text-muted">No chemotherapy</h6>
+                             <p style="margin-bottom:0px">Refer to <b>Suppression Table</b> below</p>
+                           
+                           
+                           
+                          </div></span><ul><li><div class="card" style="width:24rem; margin-top:0">
+                            <div class="card-body"><h5 class="card-title" style="text-align: left">Suppression trials</h5>
+                            <table class="table-sm table-bordered">
+                              <thead><tr><th scope="col">Severity</th>
+                                        <th scope="col">Tier</th>
+                                        <th scope="col">Treatment</th>
+                                        <th scope="col" width="7rem">Assess for improvement before escalation</th>
+                                        </tr>
+                              </thead>
+                              <tbody><tr><th scope="row" rowspan="4">Mild/Moderate Sx</th>
+                                <td>1st</td><td>Famotidine 20mg PO BID*<br>or Maalox/CaCarb(Tums) PRN</td><td>24h</td></tr>
+                                <tr><td>2nd</td><td>Famotidine 40mg PO BID*</td><td>24h</td></tr>
+                                <tr><td>3rd</td><td>Lansoprozole 15mg daily**</td><td>48-72h</td></tr>
+                                <tr><td>4th</td><td>Lansoprozole 30mg daily**</td><td>48-72h</td></tr>
+                                <tr><th scope="row" rowspan="2">Severe Sx</th>
+                                <td>1st</td><td>Famotidine 40mg PO BID*<br>or Maalox/CaCarb(Tums) PRN</td><td>48h-72h</td></tr>
+                                <tr><td>2nd</td><td>Lansoprozole 30mg daily**</td><td></td>
+                              </tr></tbody>
+                            </table>
+                            <p style="font-size:9px; text-align:left"><br><i>*Reduce dose if CrCl< 50ml/min<br>**Take 30m prior to eating</i></p>
+                          </div></div></li></ul>
+                          
+                         
+                        
+                    <li><span class="card">
+                          <div class="card-body">
+                            <h5 class="card-title">Receiving High Dose Steroids/Chemo</h5>
+                            <h6 class="card-subtitle mb-2 text-muted"><u>></u>0.3mg/kg prednisone/day or equiv</h6>
+                            <h6 class="card-subtitle mb-2 text-muted">and/or on chemotherapy</h6>
+                          </div></span>
+                    <ul>  
+                    <li><span class="card" style="width:13rem">
+                          <div class="card-body">
+                            <h5 class="card-title">Ulcer in past year or<br>currently on NSAIDS</h5>
+                            <p>Famotidine 20mg PO daily, <br>during admission</p>
+                            <p style="font-size:9px; text-align:left; margin-bottom:0"><br><i>*Reduce dose if CrCl< 50ml/min</i></p>
+                          </div></span>
+                    <li><span class="card" style="width:10rem">
+                          <div class="card-body">
+                            <h5 class="card-title">Otherwise, GI prophylaxis <u>not</u> indicated</h5>
+                            <div class="table"></div>
+                          </div></span>
+                    </li></li></ul>
+                    
+                    
+                    </ul></ul></ul>
+                    
+                    <span class="card" style="width:35rem; margin-top:-2rem; background-color:#ffedb9; border-radius:2rem">
+                          <div class="card-body" style="text-align: center; padding-bottom:0;">
+                            <h5 class="card-title">Discontinue at discharge</h5>
+                            <p>Proactively cancel order before patient is discharged home</p>
+                            <div class="table"></div>
+                          </div></span>
+                     
+                    
+                      <!-- new row after merged children -->
+                        
+                          
+                          <!--<li></ul></ul>-->
+                            <!--Shared Child-->
+                          <!-- <li style="">  -->
+                          <!--<div class="card" style="width: 8rem; margin-left:0rem; margin-top:10rem; padding:0"> <div class="card-body">-->
+                          <!--    <h5 class="card-title">>1 Red Flag Present</h5>-->
+                          <!--    <h6 class="card-subtitle mb-2 text-muted" style="font-size: 12px">More evaluation may be required</h6>-->
+                          <!--    </div>-->
+
+                      
+                     
+
+                          
+                          
+                                                         
+   
+  </section>
+    </body>
+</html>             
+                      

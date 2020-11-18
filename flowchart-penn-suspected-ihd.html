@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="flowchart-tree.css">
+        
+        <script src="d3.min.js" charset="utf-8"></script>
+        <script src="script.js"></script>
+        
+    </head>
+    <body class="container-sm" id="intro">
+    
+   <table class="table table-sm table-borderless">
+        <thead>
+            <tr>
+                <td>Pathways Home</td>
+                <td>Emergency</td>
+                <td>ICU</td>
+                <td>Inpatient</td>
+                <td>Outpatient</td>
+            </tr>
+        </thead>
+    </table>
+
+    <row>
+    <h3 style="color:#5bc0de">Diagnosis of Suspected Ischemic Heart Disease (Stress Testing)</h3>
+    </row>
+    
+    <section>
+    
+    
+          <!--Sidebar for Evidence-->
+       <div class="d-none d-lg-block col-lg-2 bd-toc">
+          <div class="sidenav">
+            <div class="card-body"><h6 class="card-title">Evidence</h6>
+              <p style="text-align:left">
+              <a href=""></a> <ion-icon name="open-outline"></ion-icon>
+              </p>          
+            <div class="card-body"><h6 class="card-title"></h6>
+                <p style="text-align:left; font-size:9px">
+                <b>Posted:</b> Feb 2016 
+                <!--<br><b>Revised:</b> -->
+                <br><b>Team:</b> N. Mull MD
+              </div> 
+        </div></div>
+    <!--<ul>-->
+        <!--<span> Home<span>-->
+        
+        
+                              
+                              
+          <ul class=tree>
+            
+              <!--<div class="card" style="width: 8rem; margin-top-4rem; padding:0">-->
+              <!--<div class="card-body"><h6 class="card-subtitle">Goals and Metrics</h6>-->
+              <!--</div></div>-->
+              
+              <!--<div class="card" style="width: 8rem; margin-top:0rem; padding:0">-->
+              <!--<div class="card-body"><h6 class="card-subtitle">Patient Education</h6>-->
+              <!--</div></div>-->
+            
+              <li><span>Suspected Ischemic Heart Disease <br>(or changed clinical status in known IHD pt)</span> 
+                <ul>
+                <li><span class="card" style="width:15rem"><div class="card-body" style="text-align: left">
+                            <h5 class="card-title">Intermediate or High Risk <br>Unstable Angina</h5>
+                            <!--<h6 class="card-subtitle mb-2 text-muted"></h6>Intermediate or High Risk Unstable Angina-->
+                            <h6 class="card-subtitle mb-2 text-muted">(per ACCF/AHA UA/NSTEMI Guidelines)</b></h6>
+                            
+                          </div></span>
+
+                    
+                  <ul>
+                    <li><span class="card">
+                          <div class="card-body" style="text-align:left">
+                            <h5 class="card-title">Clinical Assessment: H&P</h5>
+                             <h6 class="card-subtitle mb-2 text-muted">If suspected high risk lesions, prior stent in left main coronary artery, or prior sudden death or serious ventricular arrythmia, skip to intiate medical treatment</h6>
+                             
+                           
+                          </div></span>
+                         
+                   <ul>     
+                    <li><span class="card">
+                          <div class="card-body" style="text-align:left">
+                            <h5 class="card-title">Choose appropriate testing</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">or Refer to any technically adequate recent exercise/cardiac imaging study, if avail.</h6>
+                            <p style="margin-bottom:0px">Otherwise refer to <b>Table </b>below</p>
+                            </div></span>
+                   
+                   <ul> 
+                    <li><span class="card">
+                          <div class="card-body" style="text-align:left">
+                            <h5 class="card-title">Treatment Recommended</h5>
+                            <p><u>All:</u> Initiate Guideline-Directed Medical Therapy. <br><br><u>If high-risk coronary lesion suggested,</u> also consider coronary revascularization to improve survival.<br><br>For others, monitor for improvement after medical therapy. If symptoms don't resolve with medical therapy alone, consider revascularization.</p>
+                     <li>       
+                            <!--</div></span>-->
+                   
+                   <!--<ul>-->
+                   <!--  <li>-->
+                   <!--    <span class="card"><div class="card-body"><h5 class="card-title">Pharmacologic therapy</h5>-->
+                   <!--    <p>Diuretic, Beta blocker, ACEi/ARB, Vasodilators, +/- IV iron</p></div></span>-->
+                   <!--  <ul></ul></li>-->
+                   <!--  <li>-->
+                   <!--    <span class="card"><div class="card-body"><h5 class="card-title">Non-Pharmacologic therapy</h5>-->
+                   <!--    <p>Nutrition, PT, Telemetry, Education, Sleep med, D/c planning</p></div></span>-->
+                   <!--  </li>-->
+                   <!--</ul>-->
+                   
+                   
+                   </ul></ul></ul></ul></ul>
+                   
+                   
+                   <div class="container" style="margin-left:20rem; margin-top: -30rem;">
+                    <div class="card" style="width:30rem; margin:0">
+                            <div class="card-body"><h5 class="card-title" style="text-align: left">Testing Modality based on Patient Capacity</h5>
+                            <table class="table-sm table-bordered"  style="text-align: left">
+                              <thead><tr><th scope="col">Patient characteristics</th>
+                                        <th scope="col">Likelihood of IHD</th>
+                                        <th scope="col">Study Recommended</th>
+                                        <!--<th scope="col">Treatment Recommended</th>-->
+                                        </tr>
+                              </thead>
+                              <tbody>
+                                <tr><td colspan="2">Contraindications to stress testing</td>
+                                <td>CCTA or Initiate Guideline-directed Medical Therapy & monitor for improvement. <br>If no improvement, consider coronary revascularization to improve symptoms.</td>
+                                <!--<td rowspan="6"></td>-->
+                                </tr>
+                                <tr><td rowspan="2">Unable to exercise</td>
+                                <td>Low</td><td>Pharmacologic stress echo</td></tr>
+                                <tr><td>Intermediate/High</td><td>Pharmacologic stress MPI or echo OR Pharmacologic CMR or CCTA</td></tr>
+                                <tr><td colspan="2">Previous coronary revascularization, or unable to interpret resting ECG</td><td>MPI or echo with exercise</td>
+                                <tr><td rowspan="3">Resting ECG</td><td>Intermediate/High</td><td>MPI or Echo w/ exercise or pharm CMR</td></tr>
+                                <tr><td>Low/Intermediate</td><td>Standard Exercise ECG</td></tr>
+                                </tbody>
+                            </table>
+                            <!--<p style="font-size:9px; text-align:left"><a href="https://www.acc.org/tools-and-practice-support/clinical-toolkits/heart-failure-practice-solutions/hf-medication-table">Go to: Heart Failure Medication Table - ACC</a></p>-->
+                          </div></div>
+                          <!--</div>-->
+                   </ul></ul></ul></ul></ul>
+                   
+                   
+     
+   
+  </section>
+    </body>
+</html>             
+                      
