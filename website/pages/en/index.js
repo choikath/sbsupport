@@ -6,7 +6,7 @@
  */
 
 const React = require('react');
-import Drift from 'react-driftjs';
+
 
 const CompLibrary = require('../../core/CompLibrary.js');
 
@@ -70,7 +70,7 @@ class HomeSplash extends React.Component {
             <Button href="#try">Outpatient Workflows</Button>
             <Button href={docUrl('doc1.html')}>Patient Experience & Messaging</Button>
             <Button href={docUrl('doc2.html')}>Switchboard Support</Button>
-            <Button href={docUrl('doc3.html')}>Inpatient Workflows</Button>
+            <Button href={docUrl('doc2.html')}>Inpatient Workflows</Button>
 
           </PromoSection>
         </div>
@@ -204,7 +204,7 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
 
-          <Drift appId="zvh33p878tp2" />;
+
 
           <LearnHow />
           <TryOut />
