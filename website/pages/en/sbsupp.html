@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html xmlns:xlink="http://www.w3.org/1999/xlink">
+          <!-- Start of Async Drift Code -->
+            <script>
+            "use strict";
+
+            !function() {
+              var t = window.driftt = window.drift = window.driftt || [];
+              if (!t.init) {
+                if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+                t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+                t.factory = function(e) {
+                  return function() {
+                    var n = Array.prototype.slice.call(arguments);
+                    return n.unshift(e), t.push(n), t;
+                  };
+                }, t.methods.forEach(function(e) {
+                  t[e] = t.factory(e);
+                }), t.load = function(t) {
+                  var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+                  o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+                  var i = document.getElementsByTagName("script")[0];
+                  i.parentNode.insertBefore(o, i);
+                };
+              }
+            }();
+            drift.SNIPPET_VERSION = '0.3.1';
+            drift.load('zvh33p878tp2');
+            </script>
+            <!-- End of Async Drift Code -->
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <!--<link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">-->
+        <link rel="stylesheet" href="../../static/css/custom.css">
+
+        <script src="d3.min.js" charset="utf-8"></script>
+        <script src="support.js"></script>
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
+
+
+    </head>
+    <!--<body class="container-sm" id="intro">-->
+    <body style="margin:2rem">
+      <div class="jumbotron" style="margin-top:2rem">
+        <h1 class="display-4" style="color:#263238">Switchboard Support </h1>
+        <p class="lead">A simpler user guide for Switchboard and Connected Health-related questions.<ion-icon name="bulb-outline"></ion-icon></p>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card" style ="margin: .5rem">
+                <div class="card-body">
+                  <h5 class="card-title">Outpatient Scheduling Best Practices</h5></h5>
+                  <p class="card-text">Optimize Scheduling, Conversion Workflows</p>
+                  <a href="doc1.html" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="card" style ="margin: .5rem">
+                <div class="card-body">
+                  <h5 class="card-title">Patient Messaging Tools</h5>
+                  <p class="card-text">Learn about Automated appointment reminders, custom scheduled Campaigns, custom templates, remote patient monitoring, and more</p>
+                  <a href="doc2.html" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="card" style ="margin: .5rem">
+                <div class="card-body">
+                  <h5 class="card-title">Switchboard Troubleshooting & New Features</h5>
+                  <p class="card-text">Common provider or patient join issues, app-less meetings, multiple device workflows, future PennChart integration</p>
+                  <a href="doc3.html" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="card" style ="margin: .5rem">
+                <div class="card-body">
+                  <h5 class="card-title">Inpatient Workflows (New)</h5>
+                  <p class="card-text">Hybrid HUP East/West consults, Fully remote services (Mercy)</p>
+                  <a href="#" class="btn btn-primary">Read more</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+        <hr class="my-4">
+        <p style="margin-bottom: 0px">Filter by category below:</p>
+            <div id="list" style="padding-top:0.5rem"></div>
+        <!--<p>Search by name or browse alphabetically below.</p>-->
+        <!--<a class="btn btn-primary btn-lg" href="#" role="button">Search</a>-->
+
+      </div>
+    </div>
+    <!--<table class="table table-sm table-borderless">-->
+    <!--    <thead>-->
+    <!--        <tr>-->
+    <!--            <td>Pathways Home</td>-->
+    <!--            <td>Emergency</td>-->
+    <!--            <td>ICU</td>-->
+    <!--            <td>Inpatient</td>-->
+    <!--            <td>Outpatient</td>-->
+    <!--        </tr>-->
+    <!--    </thead>-->
+    <!--</table>-->
+
+    <row>
+    <h4>All Articles & Tip Sheets</h4>
+    </row>
+
+    <section>
+
+      <!--Start Listing-->
+        <row style="height:20rem"></row>
+          <div class="row"><div class="col" id="col1"></div>
+          <div class="col" id="col2"></div>
+    </section>
+
+
+      <!--Sidebar for Evidence-->
+       <div class="d-none d-lg-block col-lg-2 bd-toc">
+          <div class="sidenav" style="top:20rem; font-size:14px">
+            <div class="card-body"><h6 class="card-title">Other resources</h6>
+              <p style="text-align:left">
+              Education Learning Site <a href="https://www.med.upenn.edu/uphscovid19education/secure/switchboard.html">(Requires PennKey)</a> <ion-icon name="open-outline"></ion-icon>
+              <br><br>
+              Connected Health Resource Sharepoint <a href="https://pennmedaccess.uphs.upenn.edu/f5-w-687474703a2f2f616363657373706f696e742e757068732e7570656e6e2e656475$$/sites/preparedness/coronavirus/Pages/telehealth.aspx">(Penn Wifi)</a><a href="http://accesspoint.uphs.upenn.edu/sites/preparedness/coronavirus/Pages/telehealth.asp">(Outside Wifi)</a> <ion-icon name="open-outline"></ion-icon>
+              <br><br>
+              Operational Toolkit <a href="">(pdf)</a> <ion-icon name="open-outline"></ion-icon>
+              <br><br>
+              FAQs <a href="https://www.med.upenn.edu/uphscovid19education/assets/user-content/documents/switchboard/telemedicine-educational-faqs.pdf">(pdf)</a> <ion-icon name="open-outline"></ion-icon>
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+      <section><row><p style:"padding:4rem"></p></row></section>
+
+
+
+
+
+
+
+
+
+
+    </body>
+
+</html>
