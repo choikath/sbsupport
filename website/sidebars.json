@@ -1,0 +1,11 @@
+{
+  "docs": {
+    "Outpatient Workflows": ["doc1"],
+    "Patient Messaging": ["doc2"],
+    "Switchboard Support": ["doc3"],
+    "Inpatient Workflows": ["doc3"]
+  },
+  "docs-other": {
+    "Billing and Regulatory": ["doc4", "doc5"]
+  }
+}
