@@ -6,7 +6,7 @@
  */
 
 const React = require('react');
-
+import Drift from 'react-driftjs';
 
 const CompLibrary = require('../../core/CompLibrary.js');
 
@@ -61,6 +61,7 @@ class HomeSplash extends React.Component {
       </div>
     );
 
+
     return (
       <SplashContainer>
 
@@ -74,10 +75,14 @@ class HomeSplash extends React.Component {
 
           </PromoSection>
         </div>
+      <Drift appId="zvh33p878tp2" />
       </SplashContainer>
+
     );
   }
 }
+
+
 
 class Index extends React.Component {
   render() {
@@ -111,12 +116,11 @@ class Index extends React.Component {
         {[
           {
             content:
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
+              'Unique, patient and appointment-specific links ensure a secure, private telehealth visit ' +
+              'and customized visit reminders, embedded text bot user support, and feedback surveys help create an accessible, easy-to-navigate experience.',
             image: `${baseUrl}img/patientview.png`,
             imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
+            title: 'Patient-friendly with integrated user support',
           },
         ]}
       </Block>
@@ -141,14 +145,15 @@ class Index extends React.Component {
         {[
           {
             content:
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
+              'Our homegrown telemedicine platform is a seamless telehealth solution co-designed by our clinicians.  Custom integrations with video software, messaging features, and PennChart enable flexible, adaptable workflows. ',
             image: `${baseUrl}img/providerview.png`,
             imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
+            title: 'Created, designed, and optimized for clinicians at Penn Medicine',
           },
         ]}
       </Block>
     );
+
 
     const Features = () => (
       <Block layout="fourColumn">
@@ -169,6 +174,8 @@ class Index extends React.Component {
       </Block>
     );
 
+
+
     const Showcase = () => {
       if ((siteConfig.users || []).length === 0) {
         return null;
@@ -181,6 +188,7 @@ class Index extends React.Component {
             <img src={user.image} alt={user.caption} title={user.caption} />
           </a>
         ));
+
 
       const pageUrl = (page) =>
         baseUrl + (language ? `${language}/` : '') + page;
@@ -205,12 +213,11 @@ class Index extends React.Component {
         <div className="mainContainer">
 
 
-
           <LearnHow />
           <TryOut />
-
         </div>
       </div>
+
     );
   }
 }
