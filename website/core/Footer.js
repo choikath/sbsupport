@@ -30,11 +30,7 @@ class Footer extends React.Component {
             )}
           </a>
           <div>
-<<<<<<< HEAD
             <h5>Guides</h5>
-=======
-            <h5>Docs</h5>
->>>>>>> parent of 95e88f7... Deploy website
             <a href={this.docUrl('doc1.html')}>
               Getting Started
             </a>

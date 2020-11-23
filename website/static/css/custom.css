@@ -7,7 +7,6 @@
 
 /* your custom css */
 body {
-<<<<<<< HEAD
     font-family: 'Open Sans', sans-serif;
     /* font-family:'System-ui', sans-serif; */
 
@@ -15,13 +14,6 @@ body {
 .projectTitle {
   color: #00144D;
 }
-=======
-    /*font-family: 'Open Sans', sans-serif;*/
-    font-family:'System-ui', sans-serif;
-
-}
-
->>>>>>> parent of 95e88f7... Deploy website
 
 .container-sm {
     /*margin: 2rem 2rem;*/

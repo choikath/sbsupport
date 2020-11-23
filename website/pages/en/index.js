@@ -6,11 +6,6 @@
  */
 
 const React = require('react');
-<<<<<<< HEAD
-import Drift from 'react-driftjs';
-=======
-
->>>>>>> parent of 95e88f7... Deploy website
 
 const CompLibrary = require('../../core/CompLibrary.js');
 
@@ -65,39 +60,26 @@ class HomeSplash extends React.Component {
       </div>
     );
 
-<<<<<<< HEAD
 
-=======
->>>>>>> parent of 95e88f7... Deploy website
     return (
       <SplashContainer>
 
-        <div className="inner">
-          <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
-          <PromoSection>
-            <Button href="#try">Outpatient Workflows</Button>
-            <Button href={docUrl('doc1.html')}>Patient Experience & Messaging</Button>
-            <Button href={docUrl('doc2.html')}>Switchboard Support</Button>
-            <Button href={docUrl('doc2.html')}>Inpatient Workflows</Button>
+      <div className="inner">
+        <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
+        <PromoSection>
+          <Button href="#try">Outpatient Workflows</Button>
+          <Button href={docUrl('doc1.html')}>Patient Experience & Messaging</Button>
+          <Button href={docUrl('doc2.html')}>Switchboard Support</Button>
+          <Button href={docUrl('doc2.html')}>Inpatient Workflows</Button>
 
-          </PromoSection>
-        </div>
-<<<<<<< HEAD
-      <Drift appId="zvh33p878tp2" />
-      </SplashContainer>
+        </PromoSection>
+      </div>
 
-=======
       </SplashContainer>
->>>>>>> parent of 95e88f7... Deploy website
     );
   }
 }
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> parent of 95e88f7... Deploy website
 class Index extends React.Component {
   render() {
     const {config: siteConfig, language = ''} = this.props;
@@ -130,20 +112,11 @@ class Index extends React.Component {
         {[
           {
             content:
-<<<<<<< HEAD
               'Unique, patient and appointment-specific links ensure a secure, private telehealth visit ' +
               'and customized visit reminders, embedded text bot user support, and feedback surveys help create an accessible, easy-to-navigate experience.',
             image: `${baseUrl}img/patientview.png`,
             imageAlign: 'left',
             title: 'Patient-friendly with integrated user support',
-=======
-              'To make your landing page more attractive, use illustrations! Check out ' +
-              '[**unDraw**](https://undraw.co/) which provides you with customizable illustrations which are free to use. ' +
-              'The illustrations you see on this page are from unDraw.',
-            image: `${baseUrl}img/patientview.png`,
-            imageAlign: 'left',
-            title: 'Wonderful SVG Illustrations',
->>>>>>> parent of 95e88f7... Deploy website
           },
         ]}
       </Block>
@@ -154,13 +127,8 @@ class Index extends React.Component {
         {[
           {
             content:
-<<<<<<< HEAD
               'The Switchboard is a tool for providers to help them navigate across the methods for connecting with their patients (and families) virtually through a unique, patient-specific BlueJeans meeting.',
             image: `${baseUrl}img/favicon.png`,
-=======
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
->>>>>>> parent of 95e88f7... Deploy website
             imageAlign: 'right',
             title: 'Description',
           },
@@ -173,26 +141,15 @@ class Index extends React.Component {
         {[
           {
             content:
-<<<<<<< HEAD
               'Our homegrown telemedicine platform is a seamless telehealth solution co-designed by our clinicians.  Custom integrations with video software, messaging features, and PennChart enable flexible, adaptable workflows. ',
             image: `${baseUrl}img/providerview.png`,
             imageAlign: 'right',
             title: 'Created, designed, and optimized for clinicians at Penn Medicine',
-=======
-              'Each new Docusaurus project has **randomly-generated** theme colors.',
-            image: `${baseUrl}img/providerview.png`,
-            imageAlign: 'right',
-            title: 'Randomly Generated Theme Colors',
->>>>>>> parent of 95e88f7... Deploy website
           },
         ]}
       </Block>
     );
 
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of 95e88f7... Deploy website
     const Features = () => (
       <Block layout="fourColumn">
         {[
@@ -212,11 +169,6 @@ class Index extends React.Component {
       </Block>
     );
 
-<<<<<<< HEAD
-
-
-=======
->>>>>>> parent of 95e88f7... Deploy website
     const Showcase = () => {
       if ((siteConfig.users || []).length === 0) {
         return null;
@@ -230,10 +182,6 @@ class Index extends React.Component {
           </a>
         ));
 
-<<<<<<< HEAD
-
-=======
->>>>>>> parent of 95e88f7... Deploy website
       const pageUrl = (page) =>
         baseUrl + (language ? `${language}/` : '') + page;
 
@@ -256,21 +204,11 @@ class Index extends React.Component {
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
 
-
-<<<<<<< HEAD
-          <LearnHow />
-          <TryOut />
-        </div>
-      </div>
-
-=======
-
           <LearnHow />
           <TryOut />
 
         </div>
       </div>
->>>>>>> parent of 95e88f7... Deploy website
     );
   }
 }
