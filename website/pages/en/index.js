@@ -131,8 +131,8 @@ class Index extends React.Component {
         {[
           {
             content:
-              'This is another description of how this project is useful',
-            image: `${baseUrl}img/undraw_note_list.svg`,
+              'The Switchboard is a tool for providers to help them navigate across the methods for connecting with their patients (and families) virtually through a unique, patient-specific BlueJeans meeting.',
+            image: `${baseUrl}img/favicon.png`,
             imageAlign: 'right',
             title: 'Description',
           },
