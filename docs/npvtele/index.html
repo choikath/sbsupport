@@ -1,0 +1,74 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><title>NPV Telehealth Appts · Switchboard Support</title><meta name="viewport" content="width=device-width"/><meta name="generator" content="Docusaurus"/><meta name="description" content="## Licensing Restrictions"/><meta name="docsearch:language" content="en"/><meta property="og:title" content="NPV Telehealth Appts · Switchboard Support"/><meta property="og:type" content="website"/><meta property="og:url" content="https://choikath.github.io/sbsupport/"/><meta property="og:description" content="## Licensing Restrictions"/><meta property="og:image" content="https://choikath.github.io/sbsupport/img/undraw_online.svg"/><meta name="twitter:card" content="summary"/><meta name="twitter:image" content="https://choikath.github.io/sbsupport/img/undraw_tweetstorm.svg"/><link rel="shortcut icon" href="/sbsupport/img/favicon.ico"/><link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css"/><link rel="alternate" type="application/atom+xml" href="https://choikath.github.io/sbsupport/blog/atom.xml" title="Switchboard Support Blog ATOM Feed"/><link rel="alternate" type="application/rss+xml" href="https://choikath.github.io/sbsupport/blog/feed.xml" title="Switchboard Support Blog RSS Feed"/><script type="text/javascript" src="https://buttons.github.io/buttons.js"></script><script src="/sbsupport/js/scrollSpy.js"></script><link rel="stylesheet" href="/sbsupport/css/main.css"/><script src="/sbsupport/js/codetabs.js"></script></head><body class="sideNavVisible separateOnPageNav"><div class="fixedHeaderContainer"><div class="headerWrapper wrapper"><header><a href="/sbsupport/"><img class="logo" src="/sbsupport/img/favicon.ico" alt="Switchboard Support"/><h2 class="headerTitleWithLogo">Switchboard Support</h2></a><div class="navigationWrapper navigationSlider"><nav class="slidingNav"><ul class="nav-site nav-site-internal"><li class="siteNavGroupActive"><a href="/sbsupport/docs/scheduling" target="_self">Guides</a></li><li class=""><a href="/sbsupport/docs/doc4" target="_self">Billing and Regulatory</a></li><li class=""><a href="/sbsupport/help" target="_self">Help</a></li><li class=""><a href="/sbsupport/blog/" target="_self">Release Updates</a></li></ul></nav></div></header></div></div><div class="navPusher"><div class="docMainWrapper wrapper"><div class="docsNavContainer" id="docsNav"><nav class="toc"><div class="toggleNav"><section class="navWrapper wrapper"><div class="navBreadcrumb wrapper"><div class="navToggle" id="navToggler"><div class="hamburger-menu"><div class="line1"></div><div class="line2"></div><div class="line3"></div></div></div><h2><i>›</i><span>Telehealth-Specific Tips</span></h2><div class="tocToggler" id="tocToggler"><i class="icon-toc"></i></div></div><div class="navGroups"><div class="navGroup"><h3 class="navGroupCategoryTitle">Outpatient Workflows</h3><ul class=""><li class="navListItem"><a class="navItem" href="/sbsupport/docs/scheduling">Scheduling &amp; Rescheduling Workflows</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Telehealth-Specific Tips</h3><ul class=""><li class="navListItem navListItemActive"><a class="navItem" href="/sbsupport/docs/npvtele">NPV Telehealth Appts</a></li><li class="navListItem"><a class="navItem" href="/sbsupport/docs/group">Group Visits</a></li><li class="navListItem"><a class="navItem" href="/sbsupport/docs/hybrid">Hybrid Days</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Switchboard Support</h3><ul class=""><li class="navListItem"><a class="navItem" href="/sbsupport/docs/sb">Bulk Texting &amp; Campaigns</a></li><li class="navListItem"><a class="navItem" href="/sbsupport/docs/joinnow">Join Now Shortcut</a></li><li class="navListItem"><a class="navItem" href="/sbsupport/docs/faqs">FAQs</a></li></ul></div><div class="navGroup"><h3 class="navGroupCategoryTitle">Inpatient Workflows</h3><ul class=""><li class="navListItem"><a class="navItem" href="/sbsupport/docs/inpatient">HUP &amp; Mercy</a></li></ul></div></div></section></div><script>
+            var coll = document.getElementsByClassName('collapsible');
+            var checkActiveCategory = true;
+            for (var i = 0; i < coll.length; i++) {
+              var links = coll[i].nextElementSibling.getElementsByTagName('*');
+              if (checkActiveCategory){
+                for (var j = 0; j < links.length; j++) {
+                  if (links[j].classList.contains('navListItemActive')){
+                    coll[i].nextElementSibling.classList.toggle('hide');
+                    coll[i].childNodes[1].classList.toggle('rotate');
+                    checkActiveCategory = false;
+                    break;
+                  }
+                }
+              }
+
+              coll[i].addEventListener('click', function() {
+                var arrow = this.childNodes[1];
+                arrow.classList.toggle('rotate');
+                var content = this.nextElementSibling;
+                content.classList.toggle('hide');
+              });
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+              createToggler('#navToggler', '#docsNav', 'docsSliderActive');
+              createToggler('#tocToggler', 'body', 'tocActive');
+
+              var headings = document.querySelector('.toc-headings');
+              headings && headings.addEventListener('click', function(event) {
+                var el = event.target;
+                while(el !== headings){
+                  if (el.tagName === 'A') {
+                    document.body.classList.remove('tocActive');
+                    break;
+                  } else{
+                    el = el.parentNode;
+                  }
+                }
+              }, false);
+
+              function createToggler(togglerSelector, targetSelector, className) {
+                var toggler = document.querySelector(togglerSelector);
+                var target = document.querySelector(targetSelector);
+
+                if (!toggler) {
+                  return;
+                }
+
+                toggler.onclick = function(event) {
+                  event.preventDefault();
+
+                  target.classList.toggle(className);
+                };
+              }
+            });
+        </script></nav></div><div class="container mainContainer docsContainer"><div class="wrapper"><div class="post"><header class="postHeader"><h1 id="__docusaurus" class="postHeaderTitle">NPV Telehealth Appts</h1></header><article><div><span><h2><a class="anchor" aria-hidden="true" id="licensing-restrictions"></a><a href="#licensing-restrictions" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Licensing Restrictions</h2>
+<p><em><strong>Before scheduling, please check:</strong></em>
+If the patient resides outside of Pennsylvania, you need to make sure that you are appropriately licensed in that state unless that state has authorized out-of-state providers to conduct new patient telehealth across state lines without a license. Some states have only authorized telehealth for new patients for COVID related purposes without a license. Some states have created an expedited licensure process. For example, you must be licensed in New Jersey to provide non-COVID-related telemedicine services to new patients. New Jersey has created an expedited licensure process.</p>
+<p>Refer to the <a href="https://www.fsmb.org/siteassets/advocacy/pdf/states-waiving-licensurerequirements-for-telehealth-in-response-to-covid-19.pdf">updated State Licensure chart</a></p>
+<h2><a class="anchor" aria-hidden="true" id="clinical-eligibility---tips"></a><a href="#clinical-eligibility---tips" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Clinical Eligibility - Tips</h2>
+<ol>
+<li><p>You should use your best judgment in determining whether the clinical circumstances warrant proceeding with a new patient telehealth visit.</p>
+<p>a. Determine that you can effectively care for the patient using the remote tools (Blue Jeans, Vidyo, telephone) without the quality of the evaluation being affected or compromised. e.g., can you appropriately evaluate a patient’s presenting complaint via a remote visit?</p></li>
+<li><p>You must still obtain and document the patient’s informed consent for telehealth services. Refer to the updated verbal consent tip sheet available on the Connected Health tab from the Penn Med Access Page at <a href="https://pennmedaccess.uphs.upenn.edu/">https://pennmedaccess.uphs.upenn.edu/</a> or <a href="http://connectedhealth.uphs.upenn.edu">http://connectedhealth.uphs.upenn.edu</a> when already on the network.</p></li>
+<li><p>If visit is already underway when it is determined that care cannot be delivered effectively using telehealth services, you should suspend the phone and/or video visit and direct the patient to schedule an in-person appointment or to the emergency room, as appropriate. Note that the patient and/or payer should not be billed for this suspended visit.</p></li>
+</ol>
+<h2><a class="anchor" aria-hidden="true" id="documentation"></a><a href="#documentation" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Documentation</h2>
+<p>For visit documentation, the following EPIC SmartPhrase has been added to existing telemedicine documentation:</p>
+<blockquote>
+<p>This visit does not require an in-person evaluation and can be conducted remotely via telehealth systems without adversely affecting the quality of care delivered.</p>
+</blockquote>
+<p>Please use approved health system telemedicine documentation phrases including <strong>.COVTELEDOC, .COVVIDEO</strong>, and <strong>.COVTELEPHONE</strong> which will contain the above language.</p>
+</span></div></article></div><div class="docs-prevnext"><a class="docs-prev button" href="/sbsupport/docs/scheduling"><span class="arrow-prev">← </span><span>Scheduling &amp; Rescheduling Workflows</span></a><a class="docs-next button" href="/sbsupport/docs/group"><span>Group Visits</span><span class="arrow-next"> →</span></a></div></div></div><nav class="onPageNav"><ul class="toc-headings"><li><a href="#licensing-restrictions">Licensing Restrictions</a></li><li><a href="#clinical-eligibility---tips">Clinical Eligibility - Tips</a></li><li><a href="#documentation">Documentation</a></li></ul></nav></div><footer class="nav-footer" id="footer"><section class="sitemap"><a href="/sbsupport/" class="nav-home"><img src="/sbsupport/img/favicon.ico" alt="Switchboard Support" width="31" height="29"/></a><div><h5>Guides</h5><a href="/sbsupport/docs/scheduling.html">Getting Started</a><a href="/sbsupport/docs//">Tip Sheets</a><a href="/sbsupport/docs/sb.html">Switchboard Support</a></div><div><h5>Resources</h5><a href="/sbsupport/users">Connected Health Sharepoint</a><a href="https://stackoverflow.com/questions/tagged/" target="_blank" rel="noreferrer noopener">Learning Site (PennKey required)</a><a href="https://discordapp.com/">Project Chat</a><a href="https://twitter.com/" target="_blank" rel="noreferrer noopener">Twitter</a></div></section><section class="copyright">Copyright © 2020 Trustees of the University of Pennsylvania</section></footer></div></body></html>
