@@ -67,10 +67,10 @@ class HomeSplash extends React.Component {
       <div className="inner">
         <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
         <PromoSection>
-          <Button href="#try">Outpatient Workflows</Button>
-          <Button href={docUrl('doc1.html')}>Patient Experience & Messaging</Button>
-          <Button href={docUrl('doc2.html')}>Switchboard Support</Button>
-          <Button href={docUrl('doc2.html')}>Inpatient Workflows</Button>
+          <Button href="#library">Full Tip sheet Library</Button>
+          <Button href={docUrl('scheduling.html')}>Outpatient Workflows</Button>
+          <Button href={docUrl('sb.html')}>Switchboard Support</Button>
+          <Button href={docUrl('sb.html')}>Inpatient Workflows</Button>
 
         </PromoSection>
       </div>
@@ -98,16 +98,16 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
+    const Library = () => (
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        <h2 id="library">Tipsheet Library</h2>
+        <MarkdownBlock>All Tipsheets</MarkdownBlock>
       </div>
     );
 
-    const TryOut = () => (
+    const PatientSplash = () => (
       <Block id="try">
         {[
           {
@@ -205,7 +205,8 @@ class Index extends React.Component {
         <div className="mainContainer">
 
           <LearnHow />
-          <TryOut />
+          <PatientSplash />
+          <Library />
 
         </div>
       </div>

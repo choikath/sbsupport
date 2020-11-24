@@ -21,18 +21,16 @@ function Help(props) {
 
   const supportLinks = [
     {
-      content: `Learn more using the [documentation on this site.](${docUrl(
-        'doc1.html',
-      )})`,
-      title: 'Browse Docs',
+      content: `Reach out to your operational lead for your site-specific practice questions`,
+      title: 'Entity Telehealth Leadership',
     },
     {
-      content: 'Ask questions about the documentation and project',
-      title: 'Join the community',
+      content: 'Refer for billing, regulatory, and health system analytics dashboards',
+      title: 'Connected Health Leadership',
     },
     {
-      content: "Find out what's new with this project",
-      title: 'Stay up to date',
+      content: "Live chat with the support team, place an IS Athena ticket, or fill out the support request [form](#)",
+      title: 'Technical & Educational Support',
     },
   ];
 
@@ -43,7 +41,7 @@ function Help(props) {
           <header className="postHeader">
             <h1>Need help?</h1>
           </header>
-          <p>This project is maintained by a dedicated group of people.</p>
+          <p>We are dedicated to supporting our clinicians and staff. We have set up a network of Penn Medicine teams and resources to support you.</p>
           <GridBlock contents={supportLinks} layout="threeColumn" />
         </div>
       </Container>

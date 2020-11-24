@@ -1,9 +1,9 @@
 {
   "docs": {
-    "Outpatient Workflows": ["doc1"],
-    "Patient Messaging": ["doc2"],
-    "Switchboard Support": ["doc3"],
-    "Inpatient Workflows": ["doc3"]
+    "Outpatient Workflows": ["scheduling"],
+    "Telehealth-Specific Tips": ["npvtele", "group", "hybrid"],
+    "Switchboard Support": ["sb", "joinnow", "faqs"],
+    "Inpatient Workflows": ["inpatient"]
   },
   "docs-other": {
     "Billing and Regulatory": ["doc4", "doc5"]

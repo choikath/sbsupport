@@ -1,7 +1,7 @@
 ---
 title: New Version 1.0.0
-author: Eric Nakagawa
-authorURL: http://twitter.com/ericnakagawa
+author: Katherine Choi
+authorURL: http://twitter.com/choi_kath
 authorFBID: 661277173
 ---
 
